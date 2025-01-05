@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('a.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.list {
+    border: 1px solid #000;
+    padding: 10px;
+    min-width: 250px;
+    min-height: 300px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+#todo {
+    align-items: start;
+    background-color: #ffeb3b; 
+}
+
+#inProgress {
+    align-items: center;
+    background-color: #2196f3; 
+}
+
+#done {
+    align-items: end;
+    background-color: #4caf50; 
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

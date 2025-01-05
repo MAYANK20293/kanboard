@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Logout</a>
+        <a href="signup.html">Signup</a>
+        <a href="index.html">Profile</a>
+    </nav>
+    
+    <div id="app">
+        <h1 id="h">Kanban Board</h1>
+        <div id="lists">
+            <div align="left" class="list" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h2>To Do</h2>
+                <button onclick="addTask('todo')">Add Task</button>
+            </div>
+            <div class="list" id="inProgress" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h2>In Progress</h2>
+                <button onclick="addTask('inProgress')">Add Task</button>
+            </div>
+            <div class="list" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h2>Done</h2>
+                <button onclick="addTask('done')">Add Task</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
