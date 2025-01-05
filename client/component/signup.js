@@ -22,6 +22,6 @@ document.getElementById('signupForm').addEventListener('submit', function (e) {
     
     document.getElementById('successMessage').style.display = 'block';
     setTimeout(() => {
-        window.location.href = 'index.html'; 
+        window.location.href = '/client/src/index.html'; 
     }, 2000); 
 });

@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('a.jpg');
+    background-image: url('/client/component/a.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
